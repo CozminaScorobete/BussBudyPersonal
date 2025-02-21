@@ -1,0 +1,290 @@
+@import "https://unpkg.com/open-props";
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #568EA3;
+  color: #bcd9f3;
+  border-bottom: 2px solid #b8cbdc;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  display: flex;
+  flex-direction: row;
+  padding:10px;
+
+}
+
+/* Sidebar Styles */
+aside {
+  background-color: #68C3D4;
+  color: #fff;
+  width: 250px;
+  z-index: 2;
+  position: fixed;
+  padding-top: 100px;
+  /* Fixed sidebar on the left */
+  height: 100%;
+  /* Takes full height of the viewport */
+}
+
+.branding-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  flex:50%;
+}
+
+
+a1 {
+  color: #666666;
+  text-decoration: none;
+  
+}
+
+a {
+  color: #666666;
+  text-decoration: none;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside li {
+  margin-bottom: 10px;
+}
+
+aside a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+main {
+  margin-left: 270px;
+  
+}
+
+footer {
+  background-color: #568EA3;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 6;
+}
+
+form {
+
+  padding-top: -20px;
+}
+
+.search input[type=text] {
+  width: 300px;
+  height: 25px;
+  border-radius: 25px;
+  border: none;
+  padding-right: 25px;
+
+}
+
+.search {
+  float: center;
+  margin: 20px;
+}
+
+.search button {
+  background-color: #FF850A;
+  color: #EBEBEB;
+  float: right;
+  padding: 3px 10px;
+  border-radius: 3px;
+  margin-right: 16px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
+/* Style the placeholder text */
+::placeholder {
+  color: #ccc;
+}
+
+
+.body{
+  display:block;
+  margin:0px;
+
+
+}
+
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: black;
+
+}
+
+.idk{
+
+  text-align: center;
+
+}
+
+.busbudy{
+  display: block; /* Make the image a block-level element to center it */
+  margin: 20px auto; /* Center the image horizontally and add spacing */
+  width: 500px; /* Set the image width */
+  height: 500px; /* Set the image height */
+  padding-top: 100px;
+
+
+}
+.center-button {
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-6);
+  font-size: var(--font-size-5);
+  color: var(--gray-8);
+  background: #568EA3;
+  border: 0;
+  padding: var(--size-4) var(--size-8);
+  transform: translateY(calc(var(--y, 0) * 1%)) scale(var(--scale));
+  transition: transform 0.1s;
+  position: relative;
+}
+
+.center-button:hover {
+  --y: -10;
+  --scale: 1.1;
+  --border-scale: 1;
+}
+
+.center-button:active {
+  --y: 5%;
+  --scale: 0.9;
+  --border-scale: 0.9, 0.8;
+}
+
+.center-button:before {
+  content: "";
+  position: absolute;
+  inset: calc(var(--size-3) * -1);
+  border: var(--size-2) solid #568EA3;
+  transform: scale(var(--border-scale, 0));
+  transition: transform 0.125s;
+  
+  --angle-one: 105deg;
+  --angle-two: 290deg;
+  --spread-one: 30deg;
+  --spread-two: 40deg;
+  --start-one: calc(var(--angle-one) - (var(--spread-one) * 0.5));
+  --start-two: calc(var(--angle-two) - (var(--spread-two) * 0.5));
+  --end-one: calc(var(--angle-one) + (var(--spread-one) * 0.5));
+  --end-two: calc(var(--angle-two) + (var(--spread-two) * 0.5));
+  
+  mask: conic-gradient(
+    transparent 0 var(--start-one),
+    #568EA3 var(--start-one) var(--end-one),
+    transparent var(--end-one) var(--start-two),
+    #568EA3 var(--start-two) var(--end-two),
+    transparent var(--end-two)
+  );
+  
+  z-index: -1;
+}
+
+
+
+.button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+.content p {
+  margin: 0;
+}
+
+
+
+
+
+
+
+.header a:hover {
+  color: #E3AB23
+}
+
+
+.menu li:hover {
+  background-color: #E3AB23;
+}
+
+
+
+
+.menu {
+  float: left;
+  width: 20%;
+}
+
+.col-9 {
+  float: left;
+  width: 80%;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.idk {
+  margin: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .menu {
+    width: 100%;
+    float: none;
+  }
+
+  .col-9 {
+    width: 100%;
+    float: none;
+  }
+
+
+}
+
+@media screen and (max-width: 768px) {}
