@@ -11,7 +11,7 @@ BusBuddy is a web application designed to simplify public transportation by help
 
 
 **Screenshots:**
-![Screenshot](https://github.com/CozminaScorobete/BussBudyPersonal/blob/main/home.PNG,)
+![Screenshot](https://github.com/CozminaScorobete/BussBudyPersonal/blob/main/profile.PNG)
 ![Screenshot](https://github.com/CozminaScorobete/BussBudyPersonal/blob/main/map.PNG)
 ![Screenshot](https://github.com/CozminaScorobete/BussBudyPersonal/blob/main/profile.PNG)
 
