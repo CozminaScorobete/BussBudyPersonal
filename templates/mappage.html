@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>mapPage</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen%3A400"/>
+  <link rel="stylesheet" href="/static/mappage.css"/>
+ 
+</head>
+<body>
+<div class="mappage-ShJ">
+  <div class="auto-group-syqc-bKJ">
+    <div class="header-jRW">
+      <div class="rectangle-1-qjS">
+      </div>
+      <div class="rectangle-3-BHW">
+      </div>
+      <img class="rectangle-2-XMN" src="/static/rectangle-2.png"/>
+      <div class="search-bar-r8k">
+        <div class="searchbar-PPa">
+          <div class="rectangle-4-jTS">
+          </div>
+        </div>
+        <div class="lupa-2xL">
+          <img class="rectangle-6-Yvg" src="/static/rectangle-6-yeC.png"/>
+        </div>
+      </div>
+      <div class="homebtn-rAg">
+        <form action="/home" method="post">
+        <button type="submit" class="home-Bik">
+        </button>
+      </form>
+        <div class="frame-1-WFE">
+        </div>
+        <p class="acas-FCp">ACASĂ</p>
+      </div>
+      <div class="mapbtn-Xw2">
+        <div class="map-ULU">
+        </div>
+        <p class="map-ode">HARTĂ</p>
+      </div>
+      <div class="profilebtn-KM6">
+        <form action="/profil" method="post">
+        <button type="submit" class="map-rM2">
+        </button>
+      </form>
+        <p class="map-bJc">PROFIL</p>
+      </div>
+      <div class="linesbtn-Jyi">
+        <form action="/lini" method="post">
+        <button type="submit" class="map-T5v">
+        </button>
+      </form>
+        <p class="map-ntt">LINI</p>
+      </div>
+      <div class="reportbtn-uic">
+        <form action="/intarzieri" method="post">
+        <button type="submit" class="map-qcG">
+        </button>
+        </form>
+        <p class="map-NMJ">ÎNTARZIERI</p>
+      </div>
+    </div>
+    {% extends "layout.html" %}
+
+    {% block title %}Test{% endblock %}
+    
+    {% block head %}
+        {{ super() }}
+    {% endblock %}
+    
+    {% block body %}
+    <div id="map-container" style="width: 1500px; height: 1500px;">
+      
+
+      <!-- Your map content goes here -->{{ folium_map|safe }}
+    </div>
+        
+    {% endblock %}
+  </div>
+  <div class="footerbox-pj6">
+  </div>
+</div>
+</body>

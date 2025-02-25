@@ -1,0 +1,171 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 192rem;
+}.registerpage-amz {
+  padding: 0rem 0rem 18.5rem 0.3rem;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  background-color: #ffffff;
+
+  .header-JCC {
+    height: 14.2rem;
+    position: relative;
+    flex-shrink: 0;
+    margin-bottom: 6.7rem;
+    width: 192rem;
+
+    .rectangle-1-Rnc {
+      width: 192rem;
+      height: 12.5rem;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: #568ea3;
+    }
+    .rectangle-3-NC4 {
+      width: 192rem;
+      height: 1.9022rem;
+      position: absolute;
+      left: 0;
+      top: 10.5978rem;
+      background-color: #54717c;
+    }
+    .rectangle-2-iFv {
+      top: 1.3rem;
+      object-fit: cover;
+      vertical-align: top;
+      width: 21rem;
+      height: 12.9rem;
+      position: absolute;
+      left: 1.1rem;
+    }
+  }
+  .component-1-SSp {
+    align-items: center;
+    border-radius: 2rem;
+    flex-shrink: 0;
+    margin: 0rem 70.9rem 0rem 55.8rem;
+    padding: 12.063rem 5.9rem 7.124rem 8.5rem;
+    width: calc(100% - 126.7rem);
+    display: flex;
+    flex-direction: column;
+    border: solid 0.1rem #ff850a;
+    background-color: rgba(188, 217, 243, 0.4900000095);
+    box-sizing: border-box;
+
+    .nume-box-96L {
+      margin: 0rem 7.4rem 3.894rem 0rem;
+      width: 43.2rem;
+      border-radius: 2rem;
+      flex-shrink: 0;
+
+      .nume-HCY {
+        font-weight: 400;
+        line-height: 0.8333333333;
+        color: #000000;
+        font-family: Kreon, 'Source Sans Pro';
+        white-space: nowrap;
+        margin: 0rem 0rem 1.394rem 4rem;
+        font-size: 3rem;
+      }
+      .nume-zMr {
+        border: solid 0.1rem rgba(255, 133, 10, 0.5500000119);
+        box-sizing: border-box;
+        box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+        background-color: rgba(86, 142, 163, 0.1899999976);
+        border-radius: 2rem;
+        width: 100%;
+        height: 7.0286rem;
+      }
+    }
+    .email-box-UH2 {
+      margin: 0rem 7.4rem 2.47rem 0rem;
+      width: 43.2rem;
+      border-radius: 2rem;
+      flex-shrink: 0;
+
+      .email-oaC {
+        font-family: Kreon, 'Source Sans Pro';
+        white-space: nowrap;
+        margin: 0rem 0rem 1.394rem 4rem;
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 0.8333333333;
+        color: #000000;
+      }
+      .email-v92 {
+        box-sizing: border-box;
+        box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+        background-color: rgba(86, 142, 163, 0.1899999976);
+        border-radius: 2rem;
+        width: 100%;
+        height: 7.0286rem;
+        border: solid 0.1rem rgba(255, 133, 10, 0.5500000119);
+      }
+    }
+    .parolabox-cnY {
+      margin: 0rem 7.4rem 10.638rem 0rem;
+      box-sizing: border-box;
+      padding-bottom: 0rem;
+      width: 43.2rem;
+      border-radius: 2rem;
+      flex-shrink: 0;
+
+      .parola-YRJ {
+        color: #000000;
+        font-family: Kreon, 'Source Sans Pro';
+        white-space: nowrap;
+        margin: 0rem 0rem 1.394rem 4rem;
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 0.8333333333;
+      }
+      .parola-Gs6 {
+        background-color: rgba(86, 142, 163, 0.1899999976);
+        border-radius: 2rem;
+        width: 100%;
+        height: 7.0286rem;
+        border: solid 0.1rem rgba(255, 133, 10, 0.5500000119);
+        box-sizing: border-box;
+        box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+      }
+    }
+    .urmatorulbtn-mor {
+      box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+      flex-shrink: 0;
+      margin-left: 28rem;
+      font-weight: 400;
+      line-height: 0.8333333333;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      font-family: Kreon, 'Source Sans Pro';
+      border-radius: 2rem;
+      background-color: #568ea3;
+      width: 22.6rem;
+      height: 6.7437rem;
+      cursor: pointer;
+      color: #f5f5f5;
+    }
+  }
+}

@@ -1,0 +1,325 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 192rem;
+}.profilepage-fyv {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+
+  .header-DEk {
+    margin-bottom: 7.9rem;
+    width: 100%;
+    height: 14.2rem;
+    position: relative;
+    flex-shrink: 0;
+
+    .rectangle-1-Ynp {
+      width: 192rem;
+      height: 12.5rem;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: #568ea3;
+    }
+    .rectangle-3-6JY {
+      position: absolute;
+      left: 0;
+      top: 10.5979rem;
+      background-color: #54717c;
+      width: 192rem;
+      height: 1.9022rem;
+    }
+    .rectangle-2-dpG {
+      height: 12.9rem;
+      position: absolute;
+      left: 1.1rem;
+      top: 1.3rem;
+      object-fit: cover;
+      vertical-align: top;
+      width: 21rem;
+    }
+    .search-bar-ApC {
+      height: 3.3rem;
+      position: absolute;
+      left: 135.4rem;
+      top: 4.9rem;
+      width: 54.1rem;
+
+      .searchbar-uFz {
+        height: 3.1rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+        border-radius: 5rem 2rem 2rem 5rem;
+        width: 50rem;
+
+        .rectangle-4-TYQ {
+          width: 100%;
+          height: 3.1rem;
+          background-color: #ffffff;
+          border-radius: 2rem 0 0 2rem;
+        }
+      }
+      .lupa-kXW {
+        box-sizing: border-box;
+        left: 49rem;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-image: url('REPLACE_IMAGE:I192:89;10:20');
+        background-size: cover;
+        background-position: center;
+        border-radius: 0 2rem 2rem 0;
+        padding: 0.2rem 0.8rem 0.2rem 0.9rem;
+        width: 5.1rem;
+        height: 3.3rem;
+        position: absolute;
+        top: 0;
+
+        .rectangle-6-f8g {
+          width: 3.4rem;
+          height: 2.9rem;
+          object-fit: cover;
+          vertical-align: top;
+        }
+      }
+    }
+    .homebtn-Non {
+      top: 0.6rem;
+      width: 19.7rem;
+      height: 10.9rem;
+      position: absolute;
+      left: 23.4rem;
+
+      .home-KDE {
+        background-color: #ffc58b;
+        border-radius: 1.5rem;
+        width: 19.7rem;
+        height: 3.7rem;
+        position: absolute;
+        left: 0;
+        top: 4.4rem;
+      }
+      .frame-1-Fsa {
+        left: 3.4rem;
+        top: 0;
+        overflow: hidden;
+        width: 10rem;
+        height: 10rem;
+        position: absolute;
+      }
+      .acas-Pyn {
+        width: 12.1rem;
+        left: 3.4rem;
+        top: 1.8rem;
+        font-size: 5rem;
+        font-family: Koulen, 'Source Sans Pro';
+        white-space: nowrap;
+        height: 9.1rem;
+        position: absolute;
+        font-weight: 400;
+        line-height: 1.805;
+        color: #55727c;
+      }
+    }
+    .mapbtn-6NQ {
+      top: 1.8rem;
+      border-radius: 1.5rem;
+      width: 19.7rem;
+      height: 9.1rem;
+      position: absolute;
+      left: 46.1rem;
+
+      .map-SBN {
+        top: 3.4rem;
+        background-color: #ff850a;
+        border-radius: 1.5rem;
+        width: 19.7rem;
+        height: 3.7rem;
+        position: absolute;
+        left: 0;
+      }
+      .map-mjS {
+        width: 12.3rem;
+        height: 9.1rem;
+        font-size: 5rem;
+        font-weight: 400;
+        line-height: 1.805;
+        position: absolute;
+        left: 3.8rem;
+        top: 0;
+        color: #55727c;
+        font-family: Koulen, 'Source Sans Pro';
+        white-space: nowrap;
+      }
+    }
+    .profilebtn-Udr {
+      width: 20.2rem;
+      height: 9.1rem;
+      position: absolute;
+      left: 111.2rem;
+      top: 1.5rem;
+      border-radius: 1.5rem;
+
+      .map-ow2 {
+        background-color: #ff850a;
+        border-radius: 1.5rem;
+        width: 19.7rem;
+        height: 3.7rem;
+        position: absolute;
+        left: 0;
+        top: 3.2rem;
+      }
+      .map-Lvx {
+        white-space: nowrap;
+        width: 12.1rem;
+        height: 9.1rem;
+        position: absolute;
+        top: 0;
+        font-size: 5rem;
+        line-height: 1.805;
+        font-family: Koulen, 'Source Sans Pro';
+        left: 4.7rem;
+        font-weight: 400;
+        color: #55727c;
+      }
+    }
+    .linesbtn-Fo2 {
+      position: absolute;
+      left: 68.4rem;
+      top: 1.5rem;
+      border-radius: 1.5rem;
+      width: 20rem;
+      height: 9.1rem;
+
+      .map-CTN {
+        border-radius: 1.5rem;
+        width: 19.7rem;
+        height: 3.7rem;
+        position: absolute;
+        left: 0;
+        top: 3.3rem;
+        background-color: #ff850a;
+      }
+      .map-LJg {
+        height: 9.1rem;
+        position: absolute;
+        font-family: Koulen, 'Source Sans Pro';
+        width: 6.5rem;
+        left: 7rem;
+        top: 0;
+        font-size: 5rem;
+        font-weight: 400;
+        line-height: 1.805;
+        color: #55727c;
+        white-space: nowrap;
+      }
+    }
+    .reportbtn-SMi {
+      width: 21.1rem;
+      height: 9.1rem;
+      position: absolute;
+      left: 90.1rem;
+      top: 1.8rem;
+      border-radius: 1.5rem;
+
+      .map-mun {
+        background-color: #ff850a;
+        border-radius: 1.5rem;
+        width: 19.7rem;
+        height: 3.7rem;
+        position: absolute;
+        left: 0;
+        top: 3.2rem;
+      }
+      .map-uWC {
+        width: 18.6rem;
+        left: 0;
+        top: 0;
+        font-size: 5rem;
+        color: #55727c;
+        font-family: Koulen, 'Source Sans Pro';
+        height: 9.1rem;
+        position: absolute;
+        font-weight: 400;
+        line-height: 1.805;
+        white-space: nowrap;
+      }
+    }
+  }
+  .use-interface-btp {
+    align-items: center;
+    display: flex;
+    background-color: #c4dbe9;
+    margin: 0rem 0rem 171.9rem 35.6rem;
+    box-sizing: border-box;
+    flex-direction: column;
+    border-radius: 2rem;
+    flex-shrink: 0;
+    padding: 10.9rem 5.3rem 42.9rem 5.3rem;
+    width: 33.1rem;
+
+    .nume-5oz {
+      font-family: Kreon, 'Source Sans Pro';
+      white-space: nowrap;
+      flex-shrink: 0;
+      margin: 0rem 11.5rem 5.1rem 0rem;
+      font-size: 3rem;
+      font-weight: 400;
+      line-height: 0.8333333333;
+      color: #000000;
+    }
+    .email-oV6 {
+      font-family: Kreon, 'Source Sans Pro';
+      white-space: nowrap;
+      flex-shrink: 0;
+      margin: 0rem 12.5rem 5.1rem 0rem;
+      font-size: 3rem;
+      font-weight: 400;
+      line-height: 0.8333333333;
+      color: #000000;
+    }
+    .parola-w5W {
+      margin: 0rem 11rem 10.9rem 0rem;
+      font-size: 3rem;
+      font-weight: 400;
+      line-height: 0.8333333333;
+      color: #000000;
+      font-family: Kreon, 'Source Sans Pro';
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .locaii-favorite-TpY {
+      font-weight: 400;
+      line-height: 0.8333333333;
+      color: #000000;
+      font-family: Kreon, 'Source Sans Pro';
+      flex-shrink: 0;
+      margin-right: 12.4rem;
+      max-width: 10.1rem;
+      font-size: 3rem;
+    }
+  }
+  .footerbox-ZMn {
+    width: 100%;
+    height: 7.9rem;
+    background-color: #568ea3;
+    flex-shrink: 0;
+  }
+}

@@ -1,0 +1,154 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-size: 1.6rem; /* 1.6rem = 16px */
+}
+
+ul, li {
+  list-style: none;
+}
+
+input {
+  width: 100%;
+  height: 7.0286rem;
+  border: solid 0.1rem rgba(255, 133, 10, 0.55);
+  box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: rgba(86, 142, 163, 0.19);
+  border-radius: 2rem;
+  font-size: 2.5rem;
+  padding: 1rem;
+  max-height: 5rem;
+  overflow: hidden;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #000;
+  font-family: 'Kreon', 'Source Sans Pro';
+}
+
+.registerpage-amz {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 0.3rem 18.5rem;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.registerpage-amz .header-JCC {
+  margin-bottom: 6.7rem;
+  width: 100%;
+  height: 14.2rem;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.registerpage-amz .header-JCC .rectangle-1-Rnc,
+.registerpage-amz .header-JCC .rectangle-3-NC4 {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.registerpage-amz .header-JCC .rectangle-1-Rnc {
+  height: 12.5rem;
+  background-color: #568ea3;
+}
+
+.registerpage-amz .header-JCC .rectangle-3-NC4 {
+  height: 1.9022rem;
+  top: 10.5978rem;
+  background-color: #54717c;
+}
+
+.registerpage-amz .header-JCC .rectangle-2-iFv {
+  width: 21rem;
+  height: 12.9rem;
+  position: absolute;
+  left: 1.1rem;
+  top: 1.3rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+.registerpage-amz .component-1-SSp {
+  margin: 0 8.1rem 0 6.4rem;
+  box-sizing: border-box;
+  padding: 12.063rem 5.9rem 7.124rem 8.5rem;
+  width: calc(100% - 12.67rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #ff850a;
+  background-color: rgba(188, 217, 243, 0.49);
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+
+.registerpage-amz .component-1-SSp .nume-box-96L,
+.registerpage-amz .component-1-SSp .email-box-UH2,
+.registerpage-amz .component-1-SSp .parolabox-cnY {
+  margin: 0 7.4rem 3.894rem 0;
+  width: 43.2rem;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+
+.registerpage-amz .component-1-SSp .nume-box-96L .nume-HCY,
+.registerpage-amz .component-1-SSp .email-box-UH2 .email-oaC,
+.registerpage-amz .component-1-SSp .parolabox-cnY .parola-YRJ {
+  margin: 0 0 1.394rem 4rem;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #000;
+  font-family: 'Kreon', 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+.registerpage-amz .component-1-SSp .nume-box-96L .nume-zMr,
+.registerpage-amz .component-1-SSp .email-box-UH2 .email-v92,
+.registerpage-amz .component-1-SSp .parolabox-cnY .parola-Gs6 {
+  width: 100%;
+  height: 7.0286rem;
+  border: solid 0.1rem rgba(255, 133, 10, 0.55);
+  box-sizing: border-box;
+  box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: rgba(86, 142, 163, 0.19);
+  border-radius: 2rem;
+  font-size: 2.5rem;
+  padding: 1rem;
+  max-height: 5rem;
+  overflow: hidden;
+}
+
+.registerpage-amz .urmatorulbtn-mor {
+  margin-left: 28rem;
+  width: 22.6rem;
+  height: 6.7437rem;
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 0.8333;
+  color: #f5f5f5;
+  font-family: 'Kreon', 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #568ea3;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}

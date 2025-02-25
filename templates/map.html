@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Location Map</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="/static/index.css" />
+    <link rel="stylesheet" href="/static/intarzierii.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <style>
+        .custom-bus-stop-icon {
+            width: 15px;
+            height: 15px;
+            margin: 0;
+            overflow: hidden;
+        }
+    
+        .bus-stop-marker {
+            width: 15px;
+            height: 15px;
+            background-color: blue;  // Set the desired background color
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<div class="header-F1W" style="z-index: 8">
+    <div class="rectangle-1-kkt">
+    </div>
+    <div class="rectangle-3-oz4">
+    </div>
+    <div class="logo-i5S">
+        <img class="rectangle-2-oMn" src="/static/rectangle-2-xEx.png" style="z-index: 8" />
+    </div>
+    <div class="search-bar-u9v">
+        <div class="searchbar-zSG">
+            <div class="rectangle-4-5yW">
+            </div>
+        </div>
+        <div class="lupa-6tc">
+            <img class="rectangle-6-Z1W" src="/static/rectangle-6.png" />
+        </div>
+    </div>
+    <div class="homebtn-Mxx">
+        <form action="/home" method="post">
+            <button type="submit" class="home-FHe">
+            </button>
+        </form>
+        <div class="frame-1-KHW">
+        </div>
+        <p class="acas-DNt" contenteditable="FALSE">ACASĂ</p>
+    </div>
+    <div class="mapbtn-buE">
+        <form action="/map" method="post">
+            <button type="submit" class="map-76t">
+            </button>
+        </form>
+        <p class="map-CPE">HARTĂ</p>
+    </div>
+    <div class="profilebtn-Ta4">
+        <form action="/profil" method="post">
+            <button type="submit" class="map-ADa">
+            </button>
+        </form>
+        <p class="map-s7z">PROFIL</p>
+    </div>
+    <div class="linesbtn-Wgk">
+        <form action="/lini" method="post">
+            <button type="submit" class="map-z68">
+            </button>
+        </form>
+        <p class="map-gDr">LINI</p>
+    </div>
+    <div class="dropdown reportbtn-jC8">
+        <!-- "reportbtn-jC8" <form action="/intarzieri" method="post">
+        <button type="submit" class="map-pjN">
+        </button>
+    </form> 
+
+        <p class="map-vXW">ÎNTARZIERI</p>
+        <button class="map-pjN">
+
+            <div class="dropdown-content" style="border-radius: 15px">
+                <a href="#" style="border-radius: 15px">Raportează o întârziere</a>
+                <a href="#" style="border-radius: 15px">Linii întârziate</a>
+            </div>
+    </div> -->
+        <form action="/intarzieri" method="post">
+          <button type="submit" class="map-pjN">
+          </button>
+      </form>
+      <p class="map-vXW">ÎNTARZIERI</p>
+</div>
+<body style="overflow: hidden">
+    <div class="col-12" style="padding-top: 120px; z-index: -8;">
+    <div id="map" style="height: 2500px"></div>
+
+    <script>
+        var map = L.map('map').setView([0, 0], 13);
+        var userMarker;
+        var dynamicPins = [];
+        var manualMapViewChanged = false;
+        var selectedPin;
+        var lat;
+        var lon;
+    
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+    
+        function updateLocation(position) {
+            lat = position.coords.latitude;
+            lon = position.coords.longitude;
+            //lat = Math.random() * (90 - (-90)) + (-90);
+            //lon = Math.random() * (180 - (-180)) + (-180);
+
+
+            // Clear previous user marker
+            if (userMarker) {
+                map.removeLayer(userMarker);
+            }
+    
+            userMarker = L.marker([lat, lon]).addTo(map);
+    
+            // Check if the map view has been manually changed
+            if (!manualMapViewChanged) {
+                // Set the map view only if it has not been manually changed
+                map.setView([lat, lon], map.getZoom());
+            }
+        }
+    
+        var busStops = {{ bus_stops | tojson }};
+        var busRoutes = {{ bus_routes | tojson }};
+
+        function addBusStops() {
+            busStops.forEach(function (stop) {
+                // Customize the marker icon with a custom bus image
+                var customIcon = L.icon({
+                    iconUrl: '/static/images/bus-icon.png',  // Path to your bus image file
+                    iconSize: [55, 55],  // Set the desired size
+                    iconAnchor: [27, 27],  // Center the image on the marker's location
+                    popupAnchor: [0, -18]  // Align the popup with the top of the marker
+                });
+
+                var marker = L.marker([stop.lat, stop.lon], { icon: customIcon }).addTo(map);
+                marker.bindPopup('<b>' + stop.name + '</b><br>' + stop.popup).openPopup();
+            });
+        }
+
+                
+        function addBusRoutes() {
+            busRoutes.forEach(function (route) {
+                var polyline = L.polyline(route.route, { color: 'blue' }).addTo(map);
+                polyline.bindPopup(route.popup);
+            });
+        }
+
+    
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(updateLocation);
+            } else {
+                console.error("Geolocation is not supported by this browser.");
+            }
+        }
+        
+        
+        function updateDynamicPins() {
+            // Fetch updated positions from the server
+            fetch('/get_dynamic_pins')
+                .then(response => response.json())
+                .then(data => {
+                    // Iterate over the dynamic pins from the server
+                    data.forEach(function (pin) {
+                        // Check if the pin already exists
+                        if (dynamicPins[pin.id]) {
+                            // Update the existing pin's position
+                            dynamicPins[pin.id].setLatLng([pin.lat, pin.lon]);
+                        } else {
+                            // Create a new pin instance if it doesn't exist
+                            var marker = L.marker([pin.lat, pin.lon]).addTo(map);
+
+                            // Create a popup with HTML content, including buttons
+                            marker.bindPopup(`
+                                <b>${pin.title}</b><br>${pin.popup}<br>
+                                <button onclick="handleButtonClick1(${pin.id})" style="margin-bottom:5px;">Raportează întârziere</button>
+                                <button onclick="handleButtonClick2(${pin.id}, ${pin.lat}, ${pin.lon})">Sunt în acest mijloc de transport</button>
+                            `);
+
+                            marker.on('click', function () {
+                                // Close the previous selected pin's popup
+                                if (selectedPinId && dynamicPins[selectedPinId]) {
+                                    dynamicPins[selectedPinId].closePopup();
+                                }
+                                // Open the current pin's popup
+                                marker.openPopup();
+                                // Set the current pin ID as the selected pin ID
+                                selectedPinId = pin.id;
+                            });
+
+                            // Store the pin instance with its ID
+                            dynamicPins[pin.id] = marker;
+                        }
+                    });
+
+                    // Remove pins that are no longer present
+                    Object.keys(dynamicPins).forEach(function (pinId) {
+                        if (!data.some(pin => pin.id === parseInt(pinId))) {
+                            map.removeLayer(dynamicPins[pinId]);
+                            delete dynamicPins[pinId];
+                        }
+                    });
+                });
+        }
+        
+        function handleButtonClick1(pinId) {
+            fetch('/button1_action', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ pin_id: pinId }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.result);  // Display the result or handle it as needed
+            });
+        }
+
+        // Handle button 2 click event with user's location data
+        function handleButtonClick2(pinId) {
+            fetch('/button2_action', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    pin_id: pinId,
+                    user_lat: lat,
+                    user_lon: lon
+                }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.result);  // Display the result or handle it as needed
+            });
+        }
+        // Refresh every 2 seconds
+        setInterval(updateDynamicPins, 2000);
+        setInterval(getLocation, 2000);
+        getLocation(); // Initial update
+    
+        // Add bus stops
+        addBusStops();
+        addBusRoutes();
+    
+        // Event listener for map move
+        map.on('move', function () {
+            // Set the flag to true when the map view is manually changed
+            manualMapViewChanged = true;
+        });
+    
+    </script>
+    </div>
+</body>
+</html>

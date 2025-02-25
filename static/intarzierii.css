@@ -1,0 +1,39 @@
+
+.col-9 {
+    width: 75%;
+}
+
+.col-11 {
+    width: 93.3%;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 15px;
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+    background-color: #54717c;
+    color: white;
+    text-align: start;
+    border: 0px;
+}
+
+    .btn:hover {
+        background-color: #568ea3;
+    }
+
+.bTitle {
+    font-weight: 700;
+    font-size:34px;
+}
+.bText {
+    font-size:15px;
+}
+
+.lista {
+    border-left: 2px solid #568ea3;
+    list-style-type: none;
+    margin-left: 33px;
+    padding-left: 10px;
+}

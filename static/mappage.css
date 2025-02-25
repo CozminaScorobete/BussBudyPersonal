@@ -1,0 +1,314 @@
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 100%;
+}.mappage-ShJ {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.mappage-ShJ .auto-group-syqc-bKJ {
+  box-sizing: border-box;
+  padding-bottom: 13.56rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW {
+  margin: 0rem 0.4rem 3.6rem 0rem;
+  width: calc(100% - 0.4rem);
+  height: 14.2rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .rectangle-1-qjS {
+  width: 100%;
+  height: 12.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #568ea3;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .rectangle-3-BHW {
+  width: 100%;
+  height: 1.9022rem;
+  position: absolute;
+  left: 0;
+  top: 10.5978rem;
+  background-color: #54717c;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .rectangle-2-XMN {
+  width: 100%; /* Set width to 100% to make it responsive */
+  max-width: 21rem; /* Set max-width to control the maximum size */
+  height: auto; /* Maintain aspect ratio */
+  position: absolute;
+  left: 0.7rem;
+  top: 1.3rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .search-bar-r8k {
+  width: 100%;
+  height: 3.3rem;
+  position: absolute;
+  left: 135rem;
+  top: 4.9rem;
+  max-width: 54.1rem;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .search-bar-r8k .searchbar-PPa {
+  width: 50rem;
+  height: 3.1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  border-radius: 5rem 2rem 2rem 5rem;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .search-bar-r8k .searchbar-PPa .rectangle-4-jTS {
+  width: 100%;
+  height: 3.1rem;
+  background-color: #ffffff;
+  border-radius: 2rem 0 0 2rem;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .search-bar-r8k .lupa-2xL {
+  box-sizing: border-box;
+  padding: 0.2rem 0.8rem 0.2rem 0.9rem;
+  width: 5.1rem;
+  height: 3.3rem;
+  position: absolute;
+  left: 49rem;
+  top: 0;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/lupa-jp8.png');
+  border-radius: 0 2rem 2rem 0;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .search-bar-r8k .lupa-2xL .rectangle-6-Yvg {
+  width: 3.4rem;
+  height: 2.9rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .homebtn-rAg {
+  width: 19.7rem;
+  height: 10.9rem;
+  position: absolute;
+  left: 23rem;
+  top: 0.6rem;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .homebtn-rAg .home-Bik {
+  width: 19.7rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 0;
+  top: 4.4rem;
+  background-color: #ffc58b;
+  border-radius: 1.5rem;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .homebtn-rAg .frame-1-WFE {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  left: 3.4rem;
+  top: 0;
+  overflow: hidden;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .homebtn-rAg .acas-FCp {
+  width: 12.1rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 3.4rem;
+  top: 1.8rem;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1.805;
+  color: #55727c;
+  font-family: Koulen, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .mapbtn-Xw2 {
+  width: 19.7rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 45.7rem;
+  top: 1.8rem;
+  border-radius: 1.5rem;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .mapbtn-Xw2 .map-ULU {
+  width: 19.7rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 0;
+  top: 3.4rem;
+  background-color: #ff850a;
+  border-radius: 1.5rem;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .mapbtn-Xw2 .map-ode {
+  width: 12.3rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 3.8rem;
+  top: 0;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1.805;
+  color: #55727c;
+  font-family: Koulen, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .profilebtn-KM6 {
+  width: 20.2rem;
+  height: 9.1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 110.8rem;
+  top: 1.5rem;
+  border-radius: 1.5rem;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .profilebtn-KM6 .map-rM2 {
+  width: 19.7rem;
+  height: 3.7rem;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 3.2rem;
+  background-color: #ff850a;
+  border-radius: 1.5rem;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .profilebtn-KM6 .map-bJc {
+  width: 12.1rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 4.7rem;
+  top: 0;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1.805;
+  color: #55727c;
+  font-family: Koulen, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .linesbtn-Jyi {
+  width: 20rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 68rem;
+  top: 1.5rem;
+  border-radius: 1.5rem;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .linesbtn-Jyi .map-T5v {
+  width: 19.7rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 0;
+  top: 3.3rem;
+  background-color: #ff850a;
+  border-radius: 1.5rem;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .linesbtn-Jyi .map-ntt {
+  width: 6.5rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 7rem;
+  top: 0;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1.805;
+  color: #55727c;
+  font-family: Koulen, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .reportbtn-uic {
+  width: 21.1rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 89.7rem;
+  top: 1.8rem;
+  border-radius: 1.5rem;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .reportbtn-uic .map-qcG {
+  width: 19.7rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 0;
+  top: 3.2rem;
+  background-color: #ff850a;
+  border-radius: 1.5rem;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .header-jRW .reportbtn-uic .map-NMJ {
+  width: 18.6rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1.805;
+  color: #55727c;
+  font-family: Koulen, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.mappage-ShJ .auto-group-syqc-bKJ .timisoara-1-tKe {
+  margin-right: 0.8rem;
+  width: 181.6rem;
+  height: 128rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.mappage-ShJ .footerbox-pj6 {
+  width: 100%;
+  height: 7.9rem;
+  background-color: #568ea3;
+  flex-shrink: 0;
+}
+@media only screen and (max-width: 800px) {
+  .mappage-ShJ .auto-group-syqc-bKJ .header-jRW {
+    flex-direction: column;
+    align-items: center;
+  }
+  mappage-ShJ .auto-group-syqc-bKJ .header-jRW .search-bar-r8k {
+    display: none;
+  }
+
+  .mappage-ShJ .auto-group-syqc-bKJ .header-jRW .search-bar-r8k {
+    width: 100%;
+    max-width: none;
+    margin: 1rem 0;
+  }
+}
+
+.mappage-ShJ .auto-group-syqc-bKJ .timisoara-1-tKe {
+  margin-right: 0.8rem;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+.mappage-ShJ .footerbox-pj6 {
+  width: 100%;
+  height: 7.9rem;
+  background-color: #568ea3;
+  flex-shrink: 0;
+}

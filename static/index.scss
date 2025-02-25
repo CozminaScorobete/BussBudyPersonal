@@ -1,0 +1,658 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 192rem;
+}.index-JTe {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+  .header-F1W {
+    margin-bottom: 12.4rem;
+    width: 100%;
+    height: 14.2rem;
+    position: relative;
+    flex-shrink: 0;
+
+    .rectangle-1-kkt {
+      height: 12.5rem;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: #568ea3;
+      width: 192rem;
+    }
+    .rectangle-3-oz4 {
+      top: 10.5978rem;
+      background-color: #54717c;
+      width: 192rem;
+      height: 1.9022rem;
+      position: absolute;
+      left: 0;
+    }
+    .logo-i5S {
+      top: 1.3rem;
+      width: 21rem;
+      height: 12.9rem;
+      position: absolute;
+      left: 1.1rem;
+
+      .rectangle-2-oMn {
+        width: 21rem;
+        height: 12.9rem;
+        object-fit: cover;
+        vertical-align: top;
+      }
+    }
+    .search-bar-u9v {
+      width: 54.1rem;
+      height: 3.3rem;
+      position: absolute;
+      left: 135.4rem;
+      top: 4.9rem;
+
+      .searchbar-zSG {
+        height: 3.1rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+        border-radius: 5rem 2rem 2rem 5rem;
+        width: 50rem;
+
+        .rectangle-4-5yW {
+          width: 100%;
+          height: 3.1rem;
+          background-color: #ffffff;
+          border-radius: 2rem 0 0 2rem;
+        }
+      }
+      .lupa-6tc {
+        width: 5.1rem;
+        position: absolute;
+        top: 0;
+        overflow: hidden;
+        background-size: cover;
+        border-radius: 0 2rem 2rem 0;
+        box-sizing: border-box;
+        padding: 0.2rem 0.8rem 0.2rem 0.9rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('REPLACE_IMAGE:10:20');
+        height: 3.3rem;
+        left: 49rem;
+
+        .rectangle-6-Z1W {
+          width: 3.4rem;
+          height: 2.9rem;
+          object-fit: cover;
+          vertical-align: top;
+        }
+      }
+    }
+    .homebtn-Mxx {
+      position: absolute;
+      left: 23.4rem;
+      top: 0.6rem;
+      width: 19.7rem;
+      height: 10.9rem;
+
+      .home-FHe {
+        width: 19.7rem;
+        height: 3.7rem;
+        position: absolute;
+        left: 0;
+        top: 4.4rem;
+        background-color: #ffc58b;
+        border-radius: 1.5rem;
+      }
+      .frame-1-KHW {
+        left: 3.4rem;
+        top: 0;
+        overflow: hidden;
+        width: 10rem;
+        height: 10rem;
+        position: absolute;
+      }
+      .acas-DNt {
+        color: #55727c;
+        width: 12.1rem;
+        height: 9.1rem;
+        font-weight: 400;
+        line-height: 1.805;
+        font-family: Koulen, 'Source Sans Pro';
+        white-space: nowrap;
+        position: absolute;
+        left: 3.4rem;
+        top: 1.8rem;
+        font-size: 5rem;
+      }
+    }
+    .mapbtn-buE {
+      top: 1.8rem;
+      border-radius: 1.5rem;
+      width: 19.7rem;
+      height: 9.1rem;
+      position: absolute;
+      left: 46.1rem;
+
+      .map-76t {
+        position: absolute;
+        left: 0;
+        top: 3.4rem;
+        background-color: #ff850a;
+        border-radius: 1.5rem;
+        width: 19.7rem;
+        height: 3.7rem;
+      }
+      .map-CPE {
+        white-space: nowrap;
+        position: absolute;
+        color: #55727c;
+        font-family: Koulen, 'Source Sans Pro';
+        top: 0;
+        font-size: 5rem;
+        font-weight: 400;
+        line-height: 1.805;
+        width: 12.3rem;
+        height: 9.1rem;
+        left: 3.8rem;
+      }
+    }
+    .profilebtn-Ta4 {
+      height: 9.1rem;
+      cursor: pointer;
+      position: absolute;
+      left: 111.2rem;
+      top: 1.5rem;
+      border-radius: 1.5rem;
+      width: 20.2rem;
+
+      .map-ADa {
+        position: absolute;
+        left: 0;
+        top: 3.2rem;
+        background-color: #ff850a;
+        border-radius: 1.5rem;
+        width: 19.7rem;
+        height: 3.7rem;
+        cursor: pointer;
+      }
+      .map-s7z {
+        color: #55727c;
+        font-family: Koulen, 'Source Sans Pro';
+        height: 9.1rem;
+        left: 4.7rem;
+        top: 0;
+        line-height: 1.805;
+        white-space: nowrap;
+        width: 12.1rem;
+        position: absolute;
+        font-size: 5rem;
+        font-weight: 400;
+      }
+    }
+    .linesbtn-Wgk {
+      width: 20rem;
+      height: 9.1rem;
+      position: absolute;
+      left: 68.4rem;
+      top: 1.5rem;
+      border-radius: 1.5rem;
+
+      .map-z68 {
+        height: 3.7rem;
+        position: absolute;
+        left: 0;
+        top: 3.3rem;
+        background-color: #ff850a;
+        border-radius: 1.5rem;
+        width: 19.7rem;
+      }
+      .map-gDr {
+        left: 7rem;
+        top: 0;
+        font-weight: 400;
+        width: 6.5rem;
+        height: 9.1rem;
+        position: absolute;
+        font-family: Koulen, 'Source Sans Pro';
+        white-space: nowrap;
+        font-size: 5rem;
+        line-height: 1.805;
+        color: #55727c;
+      }
+    }
+    .reportbtn-jC8 {
+      width: 21.1rem;
+      height: 9.1rem;
+      position: absolute;
+      left: 90.1rem;
+      top: 1.8rem;
+      border-radius: 1.5rem;
+
+      .map-pjN {
+        background-color: #ff850a;
+        border-radius: 1.5rem;
+        width: 19.7rem;
+        height: 3.7rem;
+        position: absolute;
+        left: 0;
+        top: 3.2rem;
+      }
+      .map-vXW {
+        width: 18.6rem;
+        left: 0;
+        font-size: 5rem;
+        font-weight: 400;
+        font-family: Koulen, 'Source Sans Pro';
+        white-space: nowrap;
+        height: 9.1rem;
+        position: absolute;
+        top: 0;
+        line-height: 1.805;
+        color: #55727c;
+      }
+    }
+  }
+  .auto-group-ssnc-cv8 {
+    margin-bottom: 12.5rem;
+    width: 100%;
+    height: 146.4rem;
+    position: relative;
+    flex-shrink: 0;
+
+    .aut-app-xUC {
+      position: absolute;
+      left: 0;
+      top: 30.9rem;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      width: 192rem;
+      height: 115.5rem;
+
+      .text2-guz {
+        margin: 0rem 49.2rem 28.2rem 0rem;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1.25;
+        color: #000000;
+        font-family: Kreon, 'Source Sans Pro';
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+      .auto-group-axcg-bn4 {
+        width: 100%;
+        height: 84.8rem;
+        position: relative;
+        flex-shrink: 0;
+
+        .text-card-Xvc {
+          position: absolute;
+          left: 24.9rem;
+          top: 52.8rem;
+          box-sizing: border-box;
+          padding: 2.5rem 1.126rem 1.3rem 1.126rem;
+          width: 62.6rem;
+          height: 18.1rem;
+          background-color: #568ea3;
+          border-radius: 3rem;
+
+          .examenul-ncepe-in-10-minute-unde-e-autobuzul-SGt {
+            max-width: 47.9rem;
+            font-size: 3.5rem;
+            font-weight: 400;
+            line-height: 1.1428571429;
+            color: #ffffff;
+            font-family: Koulen, 'Source Sans Pro';
+            margin-bottom: 2.6rem;
+          }
+          .student-oarecare-rV2 {
+            font-size: 2rem;
+            font-weight: 400;
+            line-height: 1.805;
+            color: #ffffff;
+            font-family: Koulen, 'Source Sans Pro';
+            white-space: nowrap;
+            margin-left: 1.2738rem;
+          }
+        }
+        .text-card2-MAt {
+          background-color: #568ea3;
+          border-radius: 3rem;
+          box-sizing: border-box;
+          padding: 3rem 0.692rem 2.3rem 2.433rem;
+          height: 18.1rem;
+          top: 17.6rem;
+          width: 62.6246rem;
+          position: absolute;
+          left: 24.9rem;
+
+          .se-presupune-c-ajunge-la-12-30-aum-e-13-15-unde-e-autobuzul-r7e {
+            line-height: 1.1428571429;
+            color: #ffffff;
+            font-family: Koulen, 'Source Sans Pro';
+            margin-bottom: 0.8rem;
+            max-width: 59.5rem;
+            font-size: 3.5rem;
+            font-weight: 400;
+          }
+          .pieton-oarecare-kD2 {
+            white-space: nowrap;
+            margin-left: 2.4411rem;
+            font-size: 2rem;
+            font-weight: 400;
+            line-height: 2;
+            color: #ffffff;
+            font-family: Koulen, 'Source Sans Pro';
+          }
+        }
+        .text1-f56 {
+          width: 68.9rem;
+          position: absolute;
+          left: 92.8rem;
+          top: 14.7rem;
+          font-size: 3.6rem;
+          line-height: 1.1111111111;
+          color: #000000;
+          font-family: Kreon, 'Source Sans Pro';
+          height: 64rem;
+          font-weight: 400;
+        }
+        .rectangle-16-Yua {
+          width: 192rem;
+          height: 84.8rem;
+          position: absolute;
+          left: 0;
+          top: 0;
+          background-color: rgba(188, 217, 243, 0.4600000083);
+        }
+      }
+    }
+    .app-start-Gqa {
+      width: 111.4rem;
+      height: 61.6rem;
+      position: absolute;
+      left: 45.9rem;
+      top: 0;
+      display: flex;
+      align-items: center;
+
+      .auto-group-pjur-1HN {
+        width: 59.6rem;
+        height: 100%;
+        position: relative;
+        flex-shrink: 0;
+
+        .loginbtn-AAG {
+          width: 17.9rem;
+          cursor: pointer;
+          top: 35.4rem;
+          overflow: hidden;
+          background-color: #568ea3;
+          border-radius: 2rem;
+          height: 5.7rem;
+          position: absolute;
+          left: 0;
+          box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+
+          .login-ViL {
+            width: 4.7rem;
+            height: 2.5rem;
+            top: 1.6rem;
+            font-size: 2rem;
+            font-weight: 400;
+            position: absolute;
+            left: 6.6rem;
+            line-height: 1.25;
+            color: #ffffff;
+            font-family: Kreon, 'Source Sans Pro';
+            white-space: nowrap;
+          }
+          .logbox-PHv {
+            position: absolute;
+            left: -4.6rem;
+            top: -36.2rem;
+            background-color: rgba(188, 217, 243, 0.4600000083);
+            border-radius: 2rem;
+            width: 78rem;
+            height: 44.4rem;
+          }
+        }
+        .auto-group-mrba-Toa {
+          width: 56.6rem;
+          height: 36.1rem;
+          position: absolute;
+          left: 0;
+          top: 4.7rem;
+
+          .text3-Bja {
+            margin: 0rem 0rem 3.3rem 0.7rem;
+            max-width: 55.9rem;
+            font-size: 3.5rem;
+            font-weight: 400;
+            line-height: 1.1428571429;
+            color: #000000;
+            font-family: Kreon, 'Source Sans Pro';
+          }
+          .text4-77S {
+            font-size: 2rem;
+            font-weight: 400;
+            line-height: 1.25;
+            color: #000000;
+            font-family: Kreon, 'Source Sans Pro';
+            margin: 0rem 0rem 2.9rem 0.7rem;
+            max-width: 40.5rem;
+          }
+          .go-to-mapbtn-DgG {
+            width: 21rem;
+            cursor: pointer;
+            font-size: 2rem;
+            line-height: 1.25;
+            font-family: Kreon, 'Source Sans Pro';
+            display: flex;
+            margin-bottom: 6.1rem;
+            justify-content: center;
+            border-radius: 2rem;
+            background-color: #55727c;
+            height: 5.4rem;
+            font-weight: 400;
+            color: #ffffff;
+            white-space: nowrap;
+            align-items: center;
+            box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+          }
+          .registerbtn-GPe {
+            font-family: Kreon, 'Source Sans Pro';
+            white-space: nowrap;
+            display: flex;
+            justify-content: center;
+            background-color: #ff850a;
+            height: 5.4rem;
+            cursor: pointer;
+            width: 21.4rem;
+            font-size: 2rem;
+            color: #ffffff;
+            margin-left: 27.1rem;
+            font-weight: 400;
+            line-height: 1.25;
+            align-items: center;
+            box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+            border-radius: 2rem;
+          }
+        }
+      }
+      .rectangle-13-8Rr {
+        vertical-align: top;
+        flex-shrink: 0;
+        width: 51.8rem;
+        height: 61.6rem;
+        object-fit: cover;
+      }
+    }
+  }
+  .about-us-FWU {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0rem 32.7rem 24rem 33.4rem;
+    width: calc(100% - 66.1rem);
+    align-items: center;
+
+    .auto-group-kbvn-xvg {
+      box-sizing: border-box;
+      padding-bottom: 2.7rem;
+      width: 100%;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+
+      .cine-suntem-box-Uu2 {
+        font-size: 3.6rem;
+        line-height: 1.1111111111;
+        font-family: Kreon, 'Source Sans Pro';
+        border-radius: 2rem;
+        margin: 0rem 45.3rem 12.4rem 44.6rem;
+        width: calc(100% - 89.9rem);
+        color: #000000;
+        display: flex;
+        align-items: center;
+        height: 6.4rem;
+        font-weight: 400;
+        white-space: nowrap;
+        justify-content: center;
+        background-color: rgba(255, 133, 10, 0.7099999785);
+        flex-shrink: 0;
+      }
+      .auto-group-pdvl-jKA {
+        margin: 0rem 0.5rem 2.6rem 0rem;
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+
+        .ellipse-5-4cL {
+          margin-right: 15.2rem;
+          width: 31.6rem;
+          height: 26.9rem;
+          object-fit: contain;
+          vertical-align: top;
+          flex-shrink: 0;
+        }
+        .ellipse-6-Bwr {
+          height: 26.9rem;
+          object-fit: contain;
+          vertical-align: top;
+          flex-shrink: 0;
+          margin-right: 15.4rem;
+          width: 31.6rem;
+        }
+        .ellipse-7-L44 {
+          width: 31.6rem;
+          height: 26.9rem;
+          object-fit: contain;
+          vertical-align: top;
+          flex-shrink: 0;
+        }
+      }
+      .auto-group-zwly-g7v {
+        flex-shrink: 0;
+        margin: 0rem 5.5rem 0rem 6.3rem;
+        width: calc(100% - 11.8rem);
+        display: flex;
+        align-items: center;
+
+        .iustin-paulenco-zuJ {
+          font-family: Kreon, 'Source Sans Pro';
+          white-space: nowrap;
+          flex-shrink: 0;
+          margin: 0rem 28.6rem 0.1rem 0rem;
+          font-size: 3rem;
+          font-weight: 400;
+          line-height: 0.8333333333;
+          color: #000000;
+        }
+        .robert-vlan-XPS {
+          font-family: Kreon, 'Source Sans Pro';
+          white-space: nowrap;
+          flex-shrink: 0;
+          margin: 0.9rem 25.3rem 0rem 0rem;
+          font-size: 3rem;
+          font-weight: 400;
+          line-height: 0.8333333333;
+          color: #000000;
+        }
+        .cozmina-scorobete-FKS {
+          white-space: nowrap;
+          flex-shrink: 0;
+          margin-bottom: 0.9rem;
+          font-size: 3rem;
+          font-weight: 400;
+          line-height: 0.8333333333;
+          color: #000000;
+          font-family: Kreon, 'Source Sans Pro';
+        }
+      }
+    }
+    .auto-group-itzn-Nur {
+      flex-shrink: 0;
+      width: 100%;
+      display: flex;
+      align-items: center;
+
+      .iustin-text-X24 {
+        color: #000000;
+        font-family: Kreon, 'Source Sans Pro';
+        flex-shrink: 0;
+        margin-right: 17.3rem;
+        max-width: 33.5rem;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1.25;
+      }
+      .robi-text-3m6 {
+        font-family: Kreon, 'Source Sans Pro';
+        flex-shrink: 0;
+        margin: 0.3rem 18rem 0rem 0rem;
+        max-width: 28.2rem;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1.25;
+        color: #000000;
+      }
+      .cozmina-text-yPr {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1.25;
+        color: #000000;
+        font-family: Kreon, 'Source Sans Pro';
+        flex-shrink: 0;
+        margin-bottom: 1.9rem;
+        max-width: 28.9rem;
+      }
+    }
+  }
+  .footerbox-W8t {
+    width: 100%;
+    height: 7.9rem;
+    background-color: #568ea3;
+    flex-shrink: 0;
+  }
+}

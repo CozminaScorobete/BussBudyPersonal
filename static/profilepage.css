@@ -1,0 +1,402 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 100%;
+}.profilepage-fyv {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.profilepage-fyv .header-DEk {
+  margin-bottom: 7.9rem;
+  width: 100%;
+  height: 14.2rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.profilepage-fyv .header-DEk .rectangle-1-Ynp {
+  width: 100%;
+  height: 12.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #568ea3;
+}
+.profilepage-fyv .header-DEk .rectangle-3-6JY {
+  width: 100%;
+  height: 1.9022rem;
+  position: absolute;
+  left: 0;
+  top: 10.5979rem;
+  background-color: #54717c;
+}
+.profilepage-fyv .header-DEk .rectangle-2-dpG {
+  width: 21rem;
+  height: 12.9rem;
+  position: absolute;
+  left: 1.1rem;
+  top: 1.3rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.profilepage-fyv .header-DEk .search-bar-ApC {
+  width: 54.1rem;
+  height: 3.3rem;
+  position: absolute;
+  left: 135.4rem;
+  top: 4.9rem;
+}
+.profilepage-fyv .header-DEk .search-bar-ApC .searchbar-uFz {
+  width: 50rem;
+  height: 3.1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  border-radius: 5rem 2rem 2rem 5rem;
+}
+.profilepage-fyv .header-DEk .search-bar-ApC .searchbar-uFz .rectangle-4-TYQ {
+  width: 100%;
+  height: 3.1rem;
+  background-color: #ffffff;
+  border-radius: 2rem 0 0 2rem;
+}
+.profilepage-fyv .header-DEk .search-bar-ApC .lupa-kXW {
+  box-sizing: border-box;
+  padding: 0.2rem 0.8rem 0.2rem 0.9rem;
+  width: 5.1rem;
+  height: 3.3rem;
+  position: absolute;
+  left: 49rem;
+  top: 0;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/lupa-uYx.png');
+  border-radius: 0 2rem 2rem 0;
+}
+.profilepage-fyv .header-DEk .search-bar-ApC .lupa-kXW .rectangle-6-f8g {
+  width: 3.4rem;
+  height: 2.9rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.profilepage-fyv .header-DEk .homebtn-Non {
+  width: 19.7rem;
+  height: 10.9rem;
+  position: absolute;
+  left: 23.4rem;
+  top: 0.6rem;
+}
+.profilepage-fyv .header-DEk .homebtn-Non .home-KDE {
+  width: 19.7rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 0;
+  top: 4.4rem;
+  background-color: #ffc58b;
+  border-radius: 1.5rem;
+}
+.profilepage-fyv .header-DEk .homebtn-Non .frame-1-Fsa {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  left: 3.4rem;
+  top: 0;
+  overflow: hidden;
+}
+.profilepage-fyv .header-DEk .homebtn-Non .acas-Pyn {
+  width: 12.1rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 3.4rem;
+  top: 1.8rem;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1.805;
+  color: #55727c;
+  font-family: Koulen, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.profilepage-fyv .header-DEk .mapbtn-6NQ {
+  width: 19.7rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 46.1rem;
+  top: 1.8rem;
+  border-radius: 1.5rem;
+}
+.profilepage-fyv .header-DEk .mapbtn-6NQ .map-SBN {
+  width: 19.7rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 0;
+  top: 3.4rem;
+  background-color: #ff850a;
+  border-radius: 1.5rem;
+}
+.profilepage-fyv .header-DEk .mapbtn-6NQ .map-mjS {
+  width: 12.3rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 3.8rem;
+  top: 0;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1.805;
+  color: #55727c;
+  font-family: Koulen, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.profilepage-fyv .header-DEk .profilebtn-Udr {
+  width: 20.2rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 111.2rem;
+  top: 1.5rem;
+  border-radius: 1.5rem;
+}
+.profilepage-fyv .header-DEk .profilebtn-Udr .map-ow2 {
+  width: 19.7rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 0;
+  top: 3.2rem;
+  background-color: #ff850a;
+  border-radius: 1.5rem;
+}
+.profilepage-fyv .header-DEk .profilebtn-Udr .map-Lvx {
+  width: 12.1rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 4.7rem;
+  top: 0;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1.805;
+  color: #55727c;
+  font-family: Koulen, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.profilepage-fyv .header-DEk .linesbtn-Fo2 {
+  width: 20rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 68.4rem;
+  top: 1.5rem;
+  border-radius: 1.5rem;
+}
+.profilepage-fyv .header-DEk .linesbtn-Fo2 .map-CTN {
+  width: 19.7rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 0;
+  top: 3.3rem;
+  background-color: #ff850a;
+  border-radius: 1.5rem;
+}
+.profilepage-fyv .header-DEk .linesbtn-Fo2 .map-LJg {
+  width: 6.5rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 7rem;
+  top: 0;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1.805;
+  color: #55727c;
+  font-family: Koulen, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.profilepage-fyv .header-DEk .reportbtn-SMi {
+  width: 21.1rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 90.1rem;
+  top: 1.8rem;
+  border-radius: 1.5rem;
+}
+.profilepage-fyv .header-DEk .reportbtn-SMi .map-mun {
+  width: 19.7rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 0;
+  top: 3.2rem;
+  background-color: #ff850a;
+  border-radius: 1.5rem;
+}
+.profilepage-fyv .header-DEk .reportbtn-SMi .map-uWC {
+  width: 18.6rem;
+  height: 9.1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1.805;
+  color: #55727c;
+  font-family: Koulen, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.profilepage-fyv .use-interface-btp {
+  margin: 0rem 0rem 171.9rem 35.6rem;
+  box-sizing: border-box;
+  padding: 10.9rem 5.3rem 42.9rem 5.3rem;
+  width: 33.1rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #c4dbe9;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.profilepage-fyv .use-interface-btp .nume-5oz {
+  margin: 0rem 11.5rem 5.1rem 0rem;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 0.8333333333;
+  color: #000000;
+  font-family: Kreon, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.profilepage-fyv .use-interface-btp .email-oV6 {
+  margin: 0rem 12.5rem 5.1rem 0rem;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 0.8333333333;
+  color: #000000;
+  font-family: Kreon, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.profilepage-fyv .use-interface-btp .parola-w5W {
+  margin: 0rem 11rem 10.9rem 0rem;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 0.8333333333;
+  color: #000000;
+  font-family: Kreon, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.profilepage-fyv .use-interface-btp .locaii-favorite-TpY {
+  margin-right: 12.4rem;
+  max-width: 10.1rem;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 0.8333333333;
+  color: #000000;
+  font-family: Kreon, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.profilepage-fyv .footerbox-ZMn {
+  width: 100%;
+  height: 7.9rem;
+  background-color: #568ea3;
+  flex-shrink: 0;
+}
+
+
+.padding {
+  padding: 1rem !important;
+}
+
+.user-card-full {
+  overflow: hidden;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+  border: none;
+  margin-bottom: 15px;
+}
+
+.user-card-full .user-profile {
+  border-radius: 5px 0 0 5px;
+}
+
+.bg-c-lite-green {
+  background: linear-gradient(to right, #ff850a, #568ea3);
+}
+
+.user-profile {
+  padding: 10px 0;
+}
+
+.card-block {
+  padding: 0.75rem;
+}
+
+.m-b-25,
+.m-b-20,
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
+.img-radius {
+  border-radius: 5px;
+}
+
+h6 {
+  font-size: 30px;
+}
+
+.card .card-block p {
+  line-height: 40px;
+}
+
+@media only screen and (min-width: 1400px) {
+  p {
+    font-size: 30px;
+  }
+}
+
+.b-b-default {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.text-muted {
+  color: #919aa3 !important;
+}
+
+.f-w-600,
+.m-t-40,
+.p-b-5,
+.m-t-40 {
+  margin-top: 20px;
+}
+
+.user-card-full .social-link li {
+  display: inline-block;
+}
+
+.user-card-full .social-link li a {
+  font-size: 16px;
+  margin: 0 8px 0 0;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Restrictioneaza lățimea paginii */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+

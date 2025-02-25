@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Flask App{% endblock %}</title>
+</head>
+<body>
+    <div class="container">
+        {% block content %}
+         <div id="map-container" style="width: 1500px; height: 1500px;">
+            <!-- Your map content goes here -->{{ folium_map|safe }}
+          </div>{% endblock %}
+    </div>
+</body>
+</html>

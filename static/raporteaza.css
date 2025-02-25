@@ -1,0 +1,43 @@
+body {
+    font-size: 260%;
+}
+h1 {
+    color: #333;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #ff850a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+    button:hover {
+        background-color: #ff951a;
+    }

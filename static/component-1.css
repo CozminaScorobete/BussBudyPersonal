@@ -1,0 +1,206 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 69rem;
+}.component-1-fsr {
+  box-sizing: border-box;
+  padding: 2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: dashed 0.1rem #9747ff;
+  border-radius: 0.5rem;
+}
+.component-1-fsr .property-1registercomponent-co6 {
+  margin-bottom: 10.7rem;
+  box-sizing: border-box;
+  padding: 12.063rem 5.9rem 7.124rem 8.5rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #ff850a;
+  background-color: rgba(188, 217, 243, 0.4900000095);
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.component-1-fsr .property-1registercomponent-co6 .nume-box-7zk {
+  margin: 0rem 7.4rem 3.894rem 0rem;
+  width: 43.2rem;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.component-1-fsr .property-1registercomponent-co6 .nume-box-7zk .nume-THv {
+  margin: 0rem 0rem 1.394rem 4rem;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 0.8333333333;
+  color: #000000;
+  font-family: Kreon, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.component-1-fsr .property-1registercomponent-co6 .nume-box-7zk .nume-aNY {
+  width: 100%;
+  height: 7.0286rem;
+  border: solid 0.1rem rgba(255, 133, 10, 0.5500000119);
+  box-sizing: border-box;
+  box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+  background-color: rgba(86, 142, 163, 0.1899999976);
+  border-radius: 2rem;
+}
+.component-1-fsr .property-1registercomponent-co6 .email-box-Uip {
+  margin: 0rem 7.4rem 2.47rem 0rem;
+  width: 43.2rem;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.component-1-fsr .property-1registercomponent-co6 .email-box-Uip .email-pGt {
+  margin: 0rem 0rem 1.394rem 4rem;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 0.8333333333;
+  color: #000000;
+  font-family: Kreon, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.component-1-fsr .property-1registercomponent-co6 .email-box-Uip .email-MGp {
+  width: 100%;
+  height: 7.0286rem;
+  border: solid 0.1rem rgba(255, 133, 10, 0.5500000119);
+  box-sizing: border-box;
+  box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+  background-color: rgba(86, 142, 163, 0.1899999976);
+  border-radius: 2rem;
+}
+.component-1-fsr .property-1registercomponent-co6 .parolabox-3vL {
+  margin: 0rem 7.4rem 10.638rem 0rem;
+  box-sizing: border-box;
+  padding-bottom: 0rem;
+  width: 43.2rem;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.component-1-fsr .property-1registercomponent-co6 .parolabox-3vL .parola-z4t {
+  margin: 0rem 0rem 1.394rem 4rem;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 0.8333333333;
+  color: #000000;
+  font-family: Kreon, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.component-1-fsr .property-1registercomponent-co6 .parolabox-3vL .parola-K7A {
+  width: 100%;
+  height: 7.0286rem;
+  border: solid 0.1rem rgba(255, 133, 10, 0.5500000119);
+  box-sizing: border-box;
+  box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+  background-color: rgba(86, 142, 163, 0.1899999976);
+  border-radius: 2rem;
+}
+.component-1-fsr .property-1registercomponent-co6 .urmatorulbtn-1Vn {
+  margin-left: 28rem;
+  width: 22.6rem;
+  height: 6.7437rem;
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 0.8333333333;
+  color: #f5f5f5;
+  font-family: Kreon, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #568ea3;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.component-1-fsr .property-1confirmcomponent-Drk {
+  box-sizing: border-box;
+  padding: 22.3rem 9.455rem 20.4rem 9.4rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #ff850a;
+  background-color: rgba(188, 217, 243, 0.4900000095);
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.component-1-fsr .property-1confirmcomponent-Drk .code-box-w24 {
+  margin-bottom: 12.4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.component-1-fsr .property-1confirmcomponent-Drk .code-box-w24 .textinformativ-Hrc {
+  margin: 0rem 0rem 5.1rem 1.4rem;
+  max-width: 37.9rem;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 0.8333333333;
+  color: #000000;
+  font-family: Kreon, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.component-1-fsr .property-1confirmcomponent-Drk .code-box-w24 .cod-box-Cig {
+  width: 43.2rem;
+  height: 7.4rem;
+  border: solid 0.1rem rgba(255, 133, 10, 0.5500000119);
+  box-sizing: border-box;
+  box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+  background-color: rgba(86, 142, 163, 0.1899999976);
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.component-1-fsr .property-1confirmcomponent-Drk .confirmbtn-JFv {
+  margin: 0rem 10.612rem 0rem 8rem;
+  width: calc(100% - 18.6122rem);
+  height: 7.1rem;
+  cursor: pointer;
+  position: relative;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.component-1-fsr .property-1confirmcomponent-Drk .confirmbtn-JFv .cofirmabtn-E9a {
+  width: 27.5rem;
+  height: 7.1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #568ea3;
+  border-radius: 2rem;
+}
+.component-1-fsr .property-1confirmcomponent-Drk .confirmbtn-JFv .confirm-xLU {
+  width: 14.7rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 4.9rem;
+  top: 2rem;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 0.8333333333;
+  color: #f5f5f5;
+  font-family: Kreon, 'Source Sans Pro';
+  white-space: nowrap;
+}

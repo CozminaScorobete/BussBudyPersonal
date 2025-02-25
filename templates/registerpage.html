@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>registerPage</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kreon%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400"/>
+  <link rel="stylesheet" href="/static/registerpage.css"/>
+</head>
+<body>
+  <div class="registerpage-amz">
+    <div class="header-JCC">
+      <div class="rectangle-1-Rnc">
+      </div>
+      <div class="rectangle-3-NC4">
+      </div>
+      <img class="rectangle-2-iFv" src="/static/rectangle-2-2Ma.png"/>
+    </div>
+    <div class="component-1-SSp">
+      <form action="/inregistrare" method="post">
+        {% for message in get_flashed_messages()%}
+           <h3 style="font-size: 150%;">{{message}}</h3>
+        {%endfor%}
+        <div class="nume-box-96L">
+            <label for="nume" class="nume-HCY">Nume</label>
+            <input type="text" id="nume" name="nume" placeholder="Introduceți numele">
+        </div>
+        <div class="email-box-UH2">
+            <label for="email" class="email-oaC">Email</label>
+            <input type="email" id="email" name="email" placeholder="Introduceți adresa de email">
+        </div>
+        <div class="parolabox-cnY">
+            <label for="parola" class="parola-YRJ">Parola</label>
+            <input type="password" id="parola" name="parola" placeholder="Introduceți parola">
+        </div>
+        <input type="submit" class="urmatorulbtn-mor" value="URMĂTORUL">
+    </form>
+    
+      
+    </div>
+  </div>
+  
+  
+</body>
